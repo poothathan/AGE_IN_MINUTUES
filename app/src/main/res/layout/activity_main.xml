@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="50px">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:text="AGE IN MINUTES CALCULATOR"
+        android:textSize="73px"
+        android:gravity="center"
+        android:background="@color/purple"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:text="CALCULATE YOUR"
+        android:gravity="center"
+        android:textSize="70px" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="AGE IN"
+        android:gravity="center"
+        android:textSize="70px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="MINUTES"
+        android:gravity="center"
+        android:textSize="70px"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="600px"
+        android:layout_height="150px"
+        android:text="SELECT DATE"
+        android:textSize="60px"
+        android:backgroundTint="@color/purple"
+        android:layout_gravity=""/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:gravity="center"
+        android:text="DD/MM/YYYY"
+        android:textSize="70px" />
+
+    <TextView
+        android:id="@+id/selected_date"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:text="SELECTED DATE"
+        android:gravity="center"
+        android:textSize="70px" />
+
+    <TextView
+        android:id="@+id/minute"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:text="0"
+        android:gravity="center"
+        android:textSize="70px" />
+
+    <TextView
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:text="IN MINUTES TILL DATE"
+        android:gravity="center"
+        android:textSize="70px" />
+
+</LinearLayout>
